@@ -69,16 +69,16 @@ const Product = () => {
               <Button
                 margin="0px 16px 0px 0px"
                 onClick={() => handleEditProduct(product.id)}
-                icon={<EditOutlined />}
+                icon={<EditOutlined onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />}
               >
                 Editar
               </Button>
               <Button
                 danger
                 onClick={() => handleOpenModalDelete(product.id)}
-                icon={<DeleteOutlined />}
+                icon={<DeleteOutlined onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} />}
               >
-                Deletar
+                Deletar 
               </Button>
             </DisplayFlex>
           </LimitedContainer>

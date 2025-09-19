@@ -11,7 +11,7 @@ const FirstScreen = () => {
 
   useEffect(() => {
     if (user) {
-      navigate(ProductRoutesEnum.PRODUCT);
+      navigate(ProductRoutesEnum.PRODUCT);  
     }
   }, [user]);
 
